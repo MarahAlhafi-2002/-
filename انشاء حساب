@@ -1,0 +1,1590 @@
+<meta name='robots' content='noindex, nofollow' />
+<link rel='stylesheet' id='algori_social_share_buttons-bttn-css-css' href='http://localhost/donate%20blood/wordpresss/wp-content/plugins/social-share-buttons-lite/dist/bttn-css/bttn.min.css?ver=6.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='algori_social_share_buttons-fontawesome-css-css' href='http://localhost/donate%20blood/wordpresss/wp-content/plugins/social-share-buttons-lite/dist/fonts/css/fontawesome.min.css?ver=6.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='algori_social_share_buttons-fontawesome-brands-css-css' href='http://localhost/donate%20blood/wordpresss/wp-content/plugins/social-share-buttons-lite/dist/fonts/css/brands.min.css?ver=6.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='algori_social_share_buttons-fontawesome-solid-css-css' href='http://localhost/donate%20blood/wordpresss/wp-content/plugins/social-share-buttons-lite/dist/fonts/css/solid.min.css?ver=6.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='http://localhost/donate%20blood/wordpresss/wp-includes/css/dashicons.min.css?ver=6.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-rtl-css' href='http://localhost/donate%20blood/wordpresss/wp-includes/css/admin-bar-rtl.min.css?ver=6.7.2' type='text/css' media='all' />
+    	<style media="screen"  id="loginpress-style-wp-5-3">
+			.login .privacy-policy-page-link>a.privacy-policy-link{
+				color: inherit;
+				text-decoration: none;
+			}
+			html body.login div.wishlistmember-loginform{
+				padding: 0;
+				margin: auto;
+				transform: none;
+				top: 0;
+				width: 100%;
+			}
+			.login form .input, .login input[type=text],.login form input[type=checkbox]{
+				border-radius: 0;
+			}
+			input[type=checkbox]:checked:before {
+				content: url('data:image/svg+xml;utf8,<svg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27><path%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%23F6366A%27%2F><%2Fsvg>');
+				margin: -0.25rem 0 0 -0.275rem !important;
+			}
+			body .language-switcher{
+				margin-top: 10px;
+				clear: both;
+				z-index: 1;
+				position: absolute;
+				top: 100%;
+				width: 100%;
+			}
+			body #login{
+				position: relative;
+	
+			}
+			.wp-core-ui #login .button-primary{
+				margin-left: 0;
+			}
+			.admin-email__actions-primary .button:first-child {
+				font: 400 15px Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+				color: #fff;
+				height: auto;
+				line-height: 20px !important;
+				padding: 13px;
+				padding-top: 13px;
+				padding-bottom: 13px;
+				width: 100%;
+				text-align: center;
+				background-color: #008ec2;
+				border: 0;
+				margin-bottom: 8px;
+				border-radius: 5px;
+			}
+			.admin-email__actions-primary .button:first-child:hover {
+				background-color: #008ec2;
+			}
+			.login form.admin-email-confirm-form {
+				max-width: 360px;
+				margin: 0 auto;
+			}
+			.login-action-confirm_admin_email #backtoblog a {
+				color: #008ec2 !important;
+			}
+			input[type=checkbox]:focus, input[type=checkbox]:checked{
+				border-color: #F6366A;
+			}
+			
+    	</style>
+  	  	<style media="screen" id="loginpress-style">
+
+		/*************************************************************
+		* Plugin:      LoginPress - Customizing the WordPress Login.*
+		* Description: LoginPress is the best Login Page Customizer *
+		*              in WordPress which allows you to completely  *
+		*              change the layout of login, register and     *
+		*              forgot password forms.                       *
+		* Author:      WPBrigade                                    *
+		* Visit:       https://wordpress.org/plugins/loginpress/    *
+		*************************************************************/
+		body.login {
+			background-image: url(http://localhost/donate%20blood/wordpresss/wp-content/plugins/loginpress/img/minimalist.jpg);
+			/background-color: #ddd5c3;/
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			background-attachment: fixed;
+			display: table;
+			min-height: 100vh;
+			width: 100%;
+			padding: 0;
+		}
+		.header-wrapper{
+			/* display: table-row; */
+		}
+		#login{
+			margin-top: 2%;
+			background: #fff;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-o-border-radius: 5px;
+			border-radius: 5px;
+			-webkit-box-shadow: 0 0 15px rgba(0,0,0,.8);
+			box-shadow: 0 0 15px rgba(0,0,0,.8);
+			max-width: 350px;
+			padding: 26px 26px 6px 26px;
+			width: 100%;
+		}
+		.login form {
+			margin-top: 20px;
+			margin-left: 0;
+			background: #fff;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+		.login form .input, .login input[type="text"]{
+			height: 48px;
+			background: #fff;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			border-radius: 5px;
+			margin-bottom: 18px;
+			font: normal 15px Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+			color: #7f7f7f;
+			border-color: #bdbdbd;
+			padding-left: 27px;
+			font-weight: normal;
+		}
+		#jetpack_protect_answer{
+			padding-left: 0;
+			text-align : center;
+		}
+		.login input[type="submit"],
+		body.wp-core-ui.login .two-factor-email-resend .button,
+		.wp-core-ui #login .button-primary {
+			margin: 7px 0 7px;
+			height: 46px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			border-radius: 5px;
+			font: normal 15px Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+			color: #fff;
+			width: 100%;
+		}
+		.wp-core-ui.login .button-group.button-large .button,
+		.wp-core-ui.login .button.button-large, .wp-core-ui.login .button-primary{
+			height: 46px;
+			line-height: 0;
+			background: #008ec2;
+		}
+		.wp-core-ui.login  .two-factor-email-resend .button{
+			color: #444;
+		}
+		.login #nav {
+			text-align: center;
+		}
+		#login_error { 
+			display:block;
+		}
+		/.message { display:none; }/
+		/*.custom-message {
+			-moz-border-radius:3px 3px 3px 3px;
+			border-style:solid;
+			border-width:1px;
+			margin:0 0 16px 8px;
+			padding:12px;
+		}*/
+
+		#backtoblog{
+			text-align: center;
+		}
+		.header-cell{
+			/* display: table-cell; */
+			height: 100px;
+		}
+		.loginHeaderMenu{
+			text-align: center;
+			position: relative;
+			z-index: 10;
+			list-style: none;
+			background: #333;
+
+		}
+		.loginHeaderMenu>ul>li{
+			display: inline-block;
+			vertical-align: top;
+			position: relative;
+			list-style: none;
+		}
+		.loginHeaderMenu>ul>li>a{
+			color: #fff;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 16px;
+			padding: 17px 20px;
+			display: inline-block;
+		}
+		.loginHeaderMenu>ul>li:hover>a{
+			background: #4CAF50;
+			color: #fff;
+		}
+		.loginHeaderMenu>ul>li>ul{
+			position: absolute;
+			width: 200px;
+			padding: 0;
+			top: 100%;
+			left: 0;
+			background: #fff;
+			list-style: none;
+			text-align: left;
+			border-radius: 0 0 5px 5px;
+			-webkit-box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.31);
+			-moz-box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.31);
+			box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.31);
+			overflow: hidden;
+			opacity: 0;
+			visibility: hidden;
+		}
+		.loginHeaderMenu>ul>li:hover>ul{
+			opacity: 1;
+			visibility: visible;
+		}
+		.loginHeaderMenu>ul>li>ul>li{
+			font-size: 15px;
+			color: #333;
+		}
+		.loginHeaderMenu>ul>li>ul>li>a{
+			color: #333;
+			padding: 10px;
+			display: block;
+			text-decoration: none;
+		}
+		.loginHeaderMenu>ul>li>ul>li>a:hover {
+			background: rgba(51, 51, 51, 0.35);
+			color: #fff;
+		}
+		.login-wrapper{
+			display: table-row;
+		}
+		.login-cell{
+			display: table-cell;
+			vertical-align: middle;
+		}
+		.clear{
+			display: none;
+		}
+		.footer-wrapper{
+			width: 100%;
+			/* display: table-footer-group; */
+			position: -webkit-sticky;
+			position: sticky;
+			top: 100vh;
+			margin-top: 30px;
+		}
+		.footer-cont{
+			right: 0;
+			bottom: 0;
+			left: 0;
+			text-align: center;
+			/* display: table-cell; */
+			vertical-align: bottom;
+			/* height: 100px; */
+		}
+		.loginFooterMenu{
+			text-align: center;
+			background-color: rgba(0,0,0,.7);
+		}
+		.loginFooterMenu>ul{
+			display: inline-flex;
+		}
+
+		.loginFooterMenu>ul>li{
+			display: inline-block;
+			padding: 18px;
+		}
+		/* style two factor plugin */
+		.login .backup-methods-wrap a, #login form p:not([class]){
+			color: #555d66;
+		}
+		.login .backup-methods-wrap a:hover{
+			color: #00a0d2;
+		}
+		/*End style two factor plugin */
+		.loginFooterMenu>ul>li:focus{
+			outline: none;
+			border: 0;
+		}
+		.loginFooterMenu>ul>li>a:focus{
+			outline: none;
+			border: 0;
+		}
+		.loginFooterMenu>ul>li>a{
+			color: #fff;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 14px;
+		}
+		.loginHead {
+			width:100%;
+			text-align: center;
+			margin-top: 0;
+			margin-bottom: 20px;
+			padding: 13px 0 0;
+			position: relative;
+			margin: 0;
+		}
+		.loginHead p a {
+		text-decoration: none;
+		}
+		.loginFooter {
+			display: table-footer-group;
+		}
+		.loginFooter p a {
+			display: inline-block;
+			margin: 0 5px;
+		}
+		.loginInner {
+			margin: 0 auto;
+			text-align: center;
+			margin-top: 20px;
+			margin-bottom: 0;
+			padding: 13px 0;
+			position: relative;
+		}
+		.copyRight{
+			text-align: center;
+			padding: 12px;
+			background-color: #efefef;
+		}
+		.loginpress-show-love{
+			color: #222;
+		}
+		.loginpress-show-love a{
+			color: #263466;
+		}
+		.loginpress-show-love a:hover{
+			color: #4d5d95;
+		}
+		body.login #loginpress_video-background-wrapper {
+			position: fixed !important;
+			top: 0 !important;
+			left: 0 !important;
+			width: 100% !important;
+			height: 100% !important;
+			background-size: cover !important;
+			background-position: center !important;
+			z-index: -999 !important;
+			transform: translate(0);
+			pointer-events: none;
+		}
+		body.login{
+			height: auto;
+			align-items: flex-start !important;
+			justify-content: flex-start !important;
+			padding: 40px 0  0 !important;
+		}
+		#login{
+			border-radius: 0;
+			margin: 40px auto;
+			background: none;
+			box-shadow: none;
+			padding: 0;
+		}
+		body #login{
+			margin-bottom: auto !important;
+			margin-top: auto !important;
+		}
+		.login form{
+			padding: 30px 25px;
+		}
+		.login label{
+			color: #2C3338;
+			font-size: 14px;
+			line-height: 19px;
+			margin: 0 0 10px;
+		}
+		.login input[type="text"], .login input[type="password"]{
+			box-shadow: none;
+			border: 1px solid #C3C4C7;
+		background: #FFF;
+			border-radius: 0;
+			padding-left: 15px;
+			margin-bottom: 20px;
+			margin-right: 0;
+		}
+		.login .button.wp-hide-pw .dashicons{
+			color: #363636;
+		}
+		.social-sep{
+			font-size: 14px;
+			line-height: 19px;
+			text-transform: uppercase;
+		}
+		.login .button.wp-hide-pw{
+			height: 48px;
+		}
+		.wp-core-ui #login .wp-generate-pw,
+		.login input[type="submit"], .wp-core-ui #login .button-primary{
+			padding: 12px 15px;
+			background: #F6366A;
+			border-color: #F6366A;
+			margin: 20px 0 0;
+		}
+		.login form{
+			background: #FFF;
+			padding: 30px 25px;
+			box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.10);
+		}
+		.social-sep:after,
+		.social-sep:before{
+			border-width: 2px;
+			border-color: #CECECE;
+		}
+		.social-networks.block{
+			padding-bottom: 0;
+		}
+		.social-networks.block a > div{
+			background: none;
+			padding: 12px 10px 12px 10px;
+			border: 1px solid #C3C4C7;
+			background: #FFF;
+			font-size: 14px;
+			color: #000;
+			height: 44px;
+			display: flex;
+			align-content: center;
+			line-height: 19px;
+			justify-content: center;
+			gap: 10px;
+		}
+		#loginform .user-pass-fields{
+			margin: 0;
+		}
+		.social-networks a svg{
+			position: static;
+			order: -1;
+			width: auto;
+			height: auto;
+		}
+		.login #nav{
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+			color: #2C3338;
+
+			text-align: center;
+			font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+		}
+		.loginpress-seprator{
+			display: none;
+		}
+		.social-networks.block a span{
+			font-weight: 400;
+			float: none;
+		}
+		body .language-switcher{
+			position: static;
+		}
+		body .footer-wrapper {
+			margin-top: 30px;
+			position: static;
+		}
+		#language-switcher {
+			margin-top: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 5px;
+		}
+		#language-switcher label{
+			margin-bottom: 0;
+		}
+		@media screen and (max-width: 767px) {
+			#login{
+				width: 300px;
+			}
+			.login .loginpress-show-love{
+				position: static;
+				text-align: center;
+				float: none;
+				background: rgba(255,255,255, .5);
+				margin-top: 11px;
+				padding-bottom: 0;
+				padding: 3px;
+			}
+		}
+    </style>
+	
+	
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			// Find the element with the ID "nav"
+			var navElement = document.getElementById('nav');
+
+			// Check if the element exists
+			if (navElement) {
+				// Replace the "|" with "<span>|</span>"
+				navElement.innerHTML = navElement.innerHTML.replace(/\|/g, '<span class="loginpress-seprator">|</span>');
+			}
+			if(document.querySelector('.footer-cont').innerHTML == ''){
+				document.querySelector('.footer-wrapper').style.display = "none";
+			}
+		});
+	</script>
+  	<style type="text/css">
+*{
+	box-sizing: border-box;
+}
+.login .button-primary {
+    float: none;
+}
+.login .privacy-policy-page-link {
+    text-align: center;
+    width: 100%;
+    margin: 0em 0 2em;
+    clear: both;
+    padding-top: 10px;
+}
+html[dir="rtl"] #loginpress_showPasswordWrapper{
+	right: auto;
+	left: 0;
+}
+input[type=checkbox]:checked::before{
+	height: 1.3125rem;
+    width: 1.3125rem;
+}
+.footer-wrapper{
+	overflow: hidden;
+}
+.login form input[type=checkbox]:focus{
+	box-shadow: none;
+    outline: none;
+}
+.login form .forgetmenot{
+	float: none;
+}
+.login form .forgetmenot label{
+	display:inline-block;
+	margin: 0;
+}
+#login::after{
+	    }
+
+#login{
+	  	
+	}
+	#loginform, html body.login .wishlistmember-loginform div#login form#loginform{
+		
+									}
+
+html[dir="rtl"] .login form .input, html[dir="rtl"] .login input[type="text"]{
+	margin-right: 0;
+}
+body.login #loginpress_video-background-wrapper{
+				}
+body.login #loginpress_video-background{
+				
+			object-fit: cover;
+	
+	}
+body.login:after{
+	  
+  }
+body.login {
+		
+	
+					position: relative;
+}
+.login h1{
+		display: none  !important;
+	}
+.interim-login.login h1 a{
+		width: 84px;
+	}
+
+.login h1 a,
+.login .wp-login-logo a {
+							background-size: contain;
+	
+	
+}
+/**
+ * WordPress 6.7 campatibility
+ * @since 3.3.0 
+ * @version 3.3.0 
+*/
+.login h1 a,
+.login .wp-login-logo a{
+	background-repeat: no-repeat;
+    background-position: center;
+    text-indent: 100%;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-inline: auto;
+}
+	.login h1 a.bb-login-title:has(.bs-cs-login-title), .login.bb-login #login>h1>a {
+		height: 84px;
+	}
+.wp-core-ui #login .wp-generate-pw,
+.wp-core-ui #login  .button-primary,
+body.wp-core-ui #login .two-factor-email-resend .button{
+				}
+#language-switcher{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+#language-switcher input[type="submit"]{
+	padding: 0 10px;
+		
+}
+body .language-switcher{
+	left: 0;
+	width: 100%;
+}
+.wp-core-ui #login  .button-primary:hover{
+			}
+body .wp-core-ui #login .button-primary, body.wp-core-ui #login .two-factor-email-resend .button, .wp-core-ui #login .wp-generate-pw{
+	min-width: fit-content;
+	box-shadow: 0 0 0px rgba( 0,0,0,0.8 );  /* box-shadow: none; */
+	height: auto;
+	line-height: 1.11111111;
+	padding: 12px 15px;
+			float: none;
+	width: 100%;
+}
+.wp-core-ui #login .wp-generate-pw{
+		font-family: inherit;
+		}
+#loginform,
+#registerform,
+body.login .wishlistmember-loginform div#login form#loginform {
+							}
+#loginform input[type="text"], #loginform input[type="password"]{
+
+box-shadow: 0 0 0px rgba( 0,0,0,0.8 );}
+
+#registerform input[type="text"], #registerform input[type="password"], #registerform input[type="number"], #registerform input[type="email"] {
+		box-shadow: 0 0 0px rgba( 0,0,0,0.8 );}
+
+#lostpasswordform input[type="text"]{
+		box-shadow: 0 0 0px rgba( 0,0,0,0.8 );}
+
+#login {
+		
+}
+
+
+body.login form.shake{
+	transform: none;
+	animation: loginpress_shake_anim .2s cubic-bezier(.19,.49,.38,.79) both;
+}
+@keyframes loginpress_shake_anim {
+    25% {
+        margin-left: -20px;
+    }
+
+    75% {
+        margin-left :20px;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+.login form .forgetmenot label {
+	}
+.login label {
+		}
+
+.login form .input, .login input[type="text"] {
+				}
+
+
+/* WordFence 2FA transparent issue fix. */
+#loginform[style="position: relative;"] > .user-pass-wrap,
+#loginform[style="position: relative;"] > .forgetmenot,
+#loginform[style="position: relative;"] > .submit,
+#loginform[style="position: relative;"] > p{
+    visibility: hidden !important;
+}
+
+#wfls-prompt-overlay{
+    background: transparent;
+    padding: 0;
+}
+#wfls-prompt-wrapper input[type="text"]{
+    padding-left: 20px;
+}
+#resetpassform,
+#lostpasswordform {
+					  }
+#registerform {
+  		}
+
+#wfls-prompt-overlay {
+	}
+
+.login .message, .login .success, .login .custom-message {
+
+    border-left: 4px solid #00a0d2;
+  
+	  background-color: #fff;
+	
+  padding: 12px;
+  margin-left: 0;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+.login #nav {
+	font-family: inherit;
+		}
+
+.login #nav a, .login #nav, .privacy-policy-page-link>a{
+	
+			
+}
+
+.login form .forgetmenot label{
+	}
+.wp-core-ui #login .wp-generate-pw,
+.login p input[type="submit"],
+.wp-core-ui.login .button-group.button-large .button, .wp-core-ui.login .button.button-large, .wp-core-ui.login .button-primary,
+.wp-core-ui #login .button-primary{
+			}
+
+.login #nav a:hover{
+	}
+
+.login #backtoblog{
+	}
+
+.login .copyRight{
+	}
+/* .loginpress-show-love, .loginpress-show-love a{
+		color: ;
+	} */
+
+.login .copyRight{
+	}
+.login .privacy-policy-page-link>a.privacy-policy-link:hover{
+	text-decoration: underline;
+}
+.login #backtoblog a{
+			}
+.login .privacy-policy-page-link>a.privacy-policy-link{
+	}
+.login #backtoblog{
+	
+}
+.login #backtoblog a:hover{
+	}
+
+.loginHead {
+	}
+
+.loginHead p a {
+		}
+
+.loginHead p a:hover {
+	}
+
+.loginFooter p a {
+	margin: 0 5px;
+		}
+
+.loginFooter p a:hover {
+		}
+
+.loginInner {
+	}
+
+
+.wp-core-ui .button-primary{
+text-shadow: none;
+}
+
+/*input:-webkit-autofill{
+  transition: all 100000s ease-in-out 0s !important;
+  transition-property: background-color, color !important;
+}*/
+.copyRight{
+	padding: 12px 170px;
+}
+.loginpress-show-love{
+  float: right;
+  font-style: italic;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  position: absolute;
+  bottom: 3px;
+  right: 0;
+  z-index: 10;
+}
+.loginpress-show-love a{
+  text-decoration: none;
+}
+.love-position{
+	left: 0;
+	padding-left: 20px;
+}
+.header-cell{
+	/* display: table-cell; */
+	height: 100px;
+}
+.loginHeaderMenu{
+	text-align: center;
+	position: relative;
+	z-index: 10;
+	list-style: none;
+	background: #333;
+
+}
+.loginHeaderMenu>ul>li{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	list-style: none;
+}
+.loginHeaderMenu>ul>li>a{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 17px 20px;
+	display: inline-block;
+}
+.loginHeaderMenu>ul>li:hover>a{
+	background: #4CAF50;
+	color: #fff;
+}
+.loginHeaderMenu>ul>li>ul{
+	position: absolute;
+	width: 200px;
+	padding: 0;
+	top: 100%;
+	left: 0;
+	background: #fff;
+	list-style: none;
+	text-align: left;
+	border-radius: 0 0 5px 5px;
+	-webkit-box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.31);
+	-moz-box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.31);
+	box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.31);
+	overflow: hidden;
+	opacity: 0;
+	visibility: hidden;
+}
+.loginHeaderMenu>ul>li:hover>ul{
+	opacity: 1;
+	visibility: visible;
+}
+.loginHeaderMenu>ul>li>ul>li{
+	font-size: 15px;
+	color: #333;
+}
+.loginHeaderMenu>ul>li>ul>li>a{
+	color: #333;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+}
+.loginHeaderMenu>ul>li>ul>li>a:hover {
+	background: rgba(51, 51, 51, 0.35);
+	color: #fff;
+}
+.loginHeaderMenu>ul {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.loginFooterMenu{
+	text-align: center;
+	background-color: rgba(0,0,0,.7);
+}
+.loginFooterMenu>ul{
+	display: inline-flex;
+}
+
+.loginFooterMenu>ul>li{
+	display: inline-block;
+	padding: 18px;
+}
+.loginFooterMenu>ul>li:focus{
+	outline: none;
+	border: 0;
+}
+.loginFooterMenu>ul>li>a:focus{
+	outline: none;
+	border: 0;
+}
+.loginFooterMenu>ul>li>a{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+}
+.loginFooterMenu>ul {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.loginpress-caps-lock{
+	background: rgba(51, 56, 61, 0.9);
+    color: #fff;
+    display: none;
+    font-size: 14px;
+    width: 120px;
+	padding: 5px 10px;
+	line-height: 20px;
+    position: absolute;
+    left: calc(100% + 10px);
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    -webkit-box-shadow: 0 0 9px 0px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 0 9px 0px rgba(0, 0, 0, 0.20);
+    margin-left: 5px;
+    font-weight: normal;
+	margin: 0;
+	display: none;
+}
+.loginpress-caps-lock:before{
+	content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 5px 0;
+    border-color: transparent rgba(51, 56, 61, 0.9) transparent transparent;
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-left: 0;
+    margin-top: -5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+}
+.login form{
+    overflow: visible;
+		border: none;
+}
+#loginform .user-pass-fields input{
+    margin-bottom: 0;
+}
+#loginform .user-pass-fields {
+	margin-bottom: 18px;
+	position: relative;
+}
+#login form p.submit{
+	position: relative;
+  clear: both;
+}
+input[type=checkbox]:checked::before{
+	margin: -.35rem 0 0 -.375rem;
+}
+ /* LoginPress input field since 1.1.20 */
+ /* .loginpress-input-wrap{
+	 position: relative;
+ }
+.loginpress-input-field {
+	transition: 0.4s;
+}
+.loginpress-input-field ~ .focus-border:before, .loginpress-input-field ~ .focus-border:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 2px;
+	background-color: #3399FF;
+	transition: 0.4s;
+	z-index: 999;
+}
+.loginpress-input-field ~ .focus-border:after{
+	top: auto; bottom: 0;
+}
+.loginpress-input-field ~ .focus-border i:before, .loginpress-input-field ~ .focus-border i:after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 2px;
+	height: 0;
+	background-color: #3399FF;
+	transition: 0.6s;
+}
+.loginpress-input-field ~ .focus-border i:after{
+	left: auto; right: 0;
+}
+.loginpress-input-field:focus ~ .focus-border:before, .loginpress-input-field:focus ~ .focus-border:after{
+	left: 0;
+	width: 100%;
+	transition: 0.4s;
+}
+.loginpress-input-field:focus ~ .focus-border i:before, .loginpress-input-field:focus ~ .focus-border i:after{
+	top: 0;
+	height: 100%;
+	transition: 0.6s;
+} */
+/* ! LoginPress input field since 1.1.20 */
+@media screen and (max-width: 1239px) and (min-width: 768px){
+	body.login #loginpress_video-background-wrapper{
+			}
+}
+
+@media screen and (max-width: 767px) {
+		.login h1 a {
+				max-width: 100%;
+				background-size: contain !important;
+		}
+    .copyRight{
+    	padding: 12px;
+	}
+	.loginpress-caps-lock{
+		left: auto;
+		right: 0;
+		top: 149%;
+	}
+	.loginpress-caps-lock:before{
+		content: '';
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0 5px 5px 5px;
+		border-color: transparent transparent rgba(51, 56, 61, 0.9) transparent;
+		position: absolute;
+		top: 0px;
+		left: 5px;
+		right: auto;
+	}
+	.loginpress-show-love{
+		display: none !important;
+	}
+body.login #loginpress_video-background-wrapper{
+				}
+}
+@media screen and (max-height: 700px) {
+	.loginpress-show-love{
+		display: none !important;
+	}
+}
+/* The only rule that matters */
+#loginpress_video-background {
+/*  making the video fullscreen  */
+  position: fixed !important ;
+  right: 0 !important ;
+  bottom: 0 !important ;
+  width: 100% !important ;
+  height: 100% !important ;
+  z-index: -100 !important ;
+}
+body.login #login.login_transparent,body.login  #login.login_transparent #loginform{
+	background: none !important;
+}
+body.login{
+	height: auto !important;
+	display: flex;
+	flex-direction: column;
+}
+body #login{
+	margin-bottom: 0;
+}
+body.login label[for="authcode"]:after{
+	display: none;
+}
+body.login label[for="authcode"]+input{
+padding-left: 15px;
+}
+/* Default Login Popup styling */
+.interim-login.login form {
+	margin: 30px !important;
+}
+.interim-login #login_error, .interim-login.login .message{
+	margin: 0 20px 16px !important;
+}
+
+.interim-login.login {
+    min-height: 520px;
+	height: 100vh;
+}
+
+.interim-login #login {
+    width: 100%;
+    max-width: 380px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	padding: 20px 0;
+}
+
+/* Default Login Popup styling */
+
+.interim-login.login form {
+	margin: 30px !important;
+}
+
+.interim-login #login_error, .interim-login.login .message{
+	margin: 0 20px 16px !important;
+}
+
+.interim-login.login {
+    min-height: 520px;
+	height: 100vh;
+}
+
+.interim-login #login {
+    width: 100%;
+    max-width: 380px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	padding: 20px 0;
+}
+
+.interim-login #login .submit{
+	margin-top: 10px;
+}
+
+	[for="language-switcher-locales"]:after{
+		display: none;
+	}
+	.language-switcher{
+		clear: both;
+		padding-top: 1px;
+	}
+	.login #language-switcher input[type="submit"]{
+		margin: 0;
+		color: #2271b1;
+		border-color: #2271b1;
+		background: #f6f7f7;
+		vertical-align: top;
+		height: inherit;
+		width: inherit;
+		font-size: inherit;
+		width: fit-content;
+		max-width: fit-content;
+	}
+	@media screen and (max-width: 782px){
+		input[type=checkbox], input[type=radio]{
+			height: 16px;
+			width: 16px;
+		}
+	}
+</style>
+
+
+<style type="text/css">
+		.language-switcher{
+			z-index:9;
+			margin:0;
+		}
+		#registerform #wp-submit{
+			float:none;
+			margin-top:15px;
+		}
+		.login.clc-text-logo:not(.clc-both-logo) h1 a{
+			 background-image: none !important;
+			text-indent: unset;
+			width:auto !important;
+			height: auto !important;
+		}
+		#login form p label br{
+			display:none
+		}
+		body:not( .ml-half-screen ) .ml-form-container{
+			background:transparent !important;
+		}
+		.login:not(.clc-both-logo) h1 a{
+			background-position: center;
+			background-size:contain !important;
+		}
+		.ml-container #login{
+			 position:relative;
+			padding: 0;
+			width:100%;
+			max-width:320px;
+			margin:0;
+		}
+		#loginform,#registerform,#lostpasswordform{
+			box-sizing: border-box;
+			max-height: 100%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.ml-container{
+			position:relative;
+			min-height:100vh;
+			display:flex;
+			height:100%;
+			min-width:100%;
+		}
+		.ml-container .ml-extra-div{
+			background-position:center;
+			background-size:cover;
+			background-repeat:no-repeat
+		}
+		body .ml-form-container{
+			display:flex;
+			align-items:center;
+			justify-content:center;
+		}
+		body:not( .ml-half-screen ) .ml-container .ml-extra-div{
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%
+		}
+		body:not( .ml-half-screen ) .ml-container .ml-form-container{
+			width:100%;
+			min-height:100vh;
+		}
+		body.ml-half-screen .ml-container{
+			flex-wrap:wrap
+		}
+		body.ml-half-screen .ml-container>.ml-extra-div,body.ml-half-screen .ml-container>.ml-form-container{
+			width:50%
+		}
+		body.ml-half-screen.ml-login-align-2 .ml-container>div,body.ml-half-screen.ml-login-align-4 .ml-container>div{
+			width:100%;
+			flex-basis:50%;
+		}
+		body.ml-half-screen.ml-login-align-2 .ml-container{
+			flex-direction:column-reverse
+		}
+		body.ml-half-screen.ml-login-align-4 .ml-container{
+			flex-direction:column
+		}
+		body.ml-half-screen.ml-login-align-1 .ml-container{
+			flex-direction:row-reverse
+		}
+		body.ml-login-vertical-align-1 .ml-form-container{
+			align-items:flex-start
+		}
+		body.ml-login-vertical-align-3 .ml-form-container{
+			align-items:flex-end
+		}
+		body.ml-login-horizontal-align-1 .ml-form-container{
+			justify-content:flex-start
+		}
+		body.ml-login-horizontal-align-3 .ml-form-container{
+			justify-content:flex-end
+		}
+		@media only screen and (max-width: 768px) {
+			body.ml-half-screen .ml-container > .ml-extra-div, body.ml-half-screen .ml-container > .ml-form-container{
+				width:50% !important;
+			}
+			.login h1 a{
+				max-width: 100%;
+			}
+		}
+		.login input[type=text]:focus, .login input[type=search]:focus, .login input[type=radio]:focus, .login input[type=tel]:focus, .login input[type=time]:focus, .login input[type=url]:focus, .login input[type=week]:focus, .login input[type=password]:focus, .login input[type=checkbox]:focus, .login input[type=color]:focus, .login input[type=date]:focus, .login input[type=datetime]:focus, .login input[type=datetime-local]:focus, .login input[type=email]:focus, .login input[type=month]:focus, .login input[type=number]:focus, .login select:focus, .login textarea:focus{
+			 box-shadow: none;
+		}
+		@media only screen and (max-width: 577px){
+			body.ml-half-screen .ml-container > .ml-extra-div, body.ml-half-screen .ml-container > .ml-form-container{
+				width:100% !important;
+			}
+			body.ml-half-screen.ml-login-align-1 .ml-container .ml-extra-div, body.ml-half-screen.ml-login-align-1 .ml-container .ml-form-container,body.ml-half-screen.ml-login-align-3 .ml-container .ml-extra-div,body.ml-half-screen.ml-login-align-3 .ml-container .ml-form-container{
+				 width: 100%;
+			}
+			body.ml-half-screen.ml-login-align-1 .ml-container .ml-extra-div,body.ml-half-screen.ml-login-align-3 .ml-container .ml-extra-div{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		}
+		</style><style type="text/css" id="clc-style">.ml-container .ml-extra-div{
+background-image:url(http://localhost/donate%20blood/wordpresss/wp-content/uploads/2025/01/imagee-2.png);
+background-color:rgba(242, 242, 242, 1);
+}
+.ml-container .ml-form-container{
+background-color:rgba(255, 255, 255, 1);
+}
+.ml-half-screen div.ml-form-container{
+background-color:rgba(242, 242, 242, 1);
+}
+.login:not(.clc-both-logo) h1 a{
+background-image:url(http://localhost/donate%20blood/wordpresss/wp-content/uploads/2025/01/Donate-blood-logo.svg);
+background-size:160px;
+width:160px;
+height:160px;
+}
+.login.clc-both-logo h1 a{
+background-image:url(http://localhost/donate%20blood/wordpresss/wp-content/uploads/2025/01/Donate-blood-logo.svg);
+background-size:160px;
+}
+.login.clc-text-logo h1 a{
+color:rgba(144, 0, 0, 1);
+font-size:22px;
+}
+.login.clc-both-logo h1 a{
+background-size:160px;
+padding-top:160;
+}
+.login.clc-text-logo h1 a:hover,.login.clc-both-logo h1 a:hover{
+color:rgba(0, 0, 0, 1);
+}
+#login > h1{
+display:block;
+}
+.ml-container #login{
+max-width:360px;
+}
+#loginform,#registerform,#lostpasswordform{
+height:365px;
+background-color:rgba(255, 255, 255, 1);
+border:1px;
+border-radius:15px;
+box-shadow:5 5px 5px rgba(0,0,0,0);
+}
+.login form .input, .login input[type="text"]{
+margin:2px 116px 16px 0;
+border-radius:unset;
+border:1px solid #ddd;
+}
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover{
+background:rgba(255, 255, 255, 1);
+border-color:rgba(144, 0, 0, 1);
+}
+.wp-core-ui .button-primary{
+background:rgba(144, 0, 0, 1);
+border-color:rgba(144, 0, 0, 1);
+box-shadow:0 1px 0 #fff;
+text-shadow:0 1px 1px #fff;
+color:rgba(144, 0, 0, 1);
+}
+.login #backtoblog a, .login #nav a{
+color:rgba(255, 255, 255, 1);
+}
+.login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover{
+color:rgba(144, 0, 0, 1);
+}
+</style><style type="text/css" id="clc-columns-style">.ml-half-screen.ml-login-align-3 .ml-container .ml-extra-div,.ml-half-screen.ml-login-align-1 .ml-container .ml-form-container{ width:50%; }.ml-half-screen.ml-login-align-4 .ml-container .ml-extra-div,.ml-half-screen.ml-login-align-2 .ml-container .ml-form-container{ flex-basis:50%; }.ml-half-screen.ml-login-align-3 .ml-container .ml-form-container,.ml-half-screen.ml-login-align-1 .ml-container .ml-extra-div{ width:50%; }.ml-half-screen.ml-login-align-4 .ml-container .ml-form-container,.ml-half-screen.ml-login-align-2 .ml-container .ml-extra-div{ flex-basis:50%; }</style><style type="text/css" id="clc-logo-style">.login.clc-both-logo h1 a{width:100%;height:100%;text-indent: unset;background-position:top center !important;padding-top:190px; background-size: 160px 160px; margin-top: -175px; position:relative;background-image:url(http://localhost/donate%20blood/wordpresss/wp-content/uploads/2025/01/Donate-blood-logo.svg)}</style><style type="text/css" id="clc-custom-css">.ml-form-container .submit input[type='submit']{box-shadow:none;}.ml-form-container input[type='text'],.ml-form-container input[type='password']{box-shadow:none;} 
+.wp-core-ui #login .wp-generate-pw, .login input[type="submit"], .wp-core-ui #login
+.button-primary {
+    padding: 12px 15px;
+    background: #900000 !important;
+	border-color: #900000 !important;}
+.wp-core-ui #login .wp-generate-pw, .login input[type="submit"], .wp-core-ui #login
+.button-primary :hover {
+    padding: 12px 15px;
+    background: #fff !important;
+	border-color: #900000 !important;}
+.login #backtoblog a, .login #nav a {
+    color: rgb(0 0 0) !important;
+}
+#user-registration.vertical .user-registration-MyAccount-content_body .ur-frontend-form.login .ur-form-row .ur-form-grid > p input[type="submit"], #user-registration.horizontal .user-registration-MyAccount-content_body .ur-frontend-form.login .ur-form-row .ur-form-grid > p input[type="submit"] {
+    float: unset;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #900000 !important;
+	color: #900000 !important;}
+loginform, #registerform, #lostpasswordform {
+	height: 1030px !important;}</style><style type="text/css" id="clc-custom-background-link"> body .ml-container .ml-extra-div .clc-custom-background-link {display:block; width:100%; height:100%;} </style><link rel="icon" href="http://localhost/donate%20blood/wordpresss/wp-content/uploads/2025/01/Donate-blood-logo.svg" sizes="32x32" />
+<link rel="icon" href="http://localhost/donate%20blood/wordpresss/wp-content/uploads/2025/01/Donate-blood-logo.svg" sizes="192x192" />
+<link rel="apple-touch-icon" href="http://localhost/donate%20blood/wordpresss/wp-content/uploads/2025/01/Donate-blood-logo.svg" />
+<meta name="msapplication-TileImage" content="http://localhost/donate%20blood/wordpresss/wp-content/uploads/2025/01/Donate-blood-logo.svg" />
+
+<div class="custom-register-wrapper">
+    <style>
+        /* يمكنك نقل هذه الأنماط إلى ملف CSS منفصل */
+        .custom-register-wrapper {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f8f9fa;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 900px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+        .form-container {
+            width: 50%;
+        }
+        .form-container h2 {
+            text-align: center;
+            color: #d9534f;
+        }
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px; /* فراغ بين الأعمدة */
+        }
+        .form-group {
+            margin-bottom: 50px;
+            width: 50%;
+            height: 50;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            width: 100%;
+            background: #900000;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font: normal 16px Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;;
+        }
+        .btn:hover {
+            background: #000000;
+            color: #fff;
+            font: normal 17px Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;;
+        }
+        .google-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #900000;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            margin-top: 10px;
+            font: normal 16px Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;;
+        }
+        .google-btn:hover {
+            background: #000000;
+            color: #fff;}
+        .text-center {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .image-container {
+            width: 50%;
+            background-image: url('http://localhost/donate%20blood/wordpresss/wp-content/uploads/2025/01/imagee.png'); /* استبدل الرابط برابط الصورة المطلوبة */
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+        }
+        .form-groupp {
+    display: flex;
+    align-items: center; /* لمحاذاة النص مع الـ checkbox */
+    gap: 10px; /* المسافة بين الـ checkbox والنص */
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+input[type="checkbox"] {
+    margin: 0; /* إزالة الهوامش */
+    width: auto; /* التأكد من أن العرض تلقائي */
+}
+input[type="checkbox"] {
+    margin: 0; /* إزالة أي هوامش قد تؤثر على المحاذاة */
+}
+    </style>
+
+    <div class="container">
+        <div class="form-container">
+            <h2>إنشاء حساب جديد</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>اسم المستخدم</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label>البريد الإلكتروني</label>
+                        <input type="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>كلمة المرور</label>
+                        <input type="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label>تأكيد كلمة المرور</label>
+                        <input type="password" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>الجنس</label>
+                        <select required>
+                            <option value="male">ذكر</option>
+                            <option value="female">أنثى</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>فصيلة الدم</label>
+                        <select required>
+                            <option>اختر فصيلة دمك</option>
+                            <option>A+</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>B-</option>
+                            <option>AB+</option>
+                            <option>AB-</option>
+                            <option>O+</option>
+                            <option>O-</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+<div class="form-group">
+    <label for="age">العمر</label>
+    <input type="number" id="age" name="age" min="18" max="60" required oninput="checkAgeValidity()">
+    <div id="ageError" style="color: red;"></div>
+</div>
+
+<script>
+function checkAgeValidity() {
+    var ageInput = document.getElementById('age');
+    var ageError = document.getElementById('ageError');
+    
+    if (ageInput.value < 18 || ageInput.value > 60) {
+        ageError.textContent = ' ';
+        ageInput.setCustomValidity('يجب أن يكون عمرك ما بين 18 و 60 سنة');
+    } else {
+        ageError.textContent = '';
+        ageInput.setCustomValidity('');
+    }
+}
+</script>
+
+                    <div class="form-group">
+                        <label>المنطقة</label>
+                        <select required>
+                            <option value="gaza">اختر منطقتك</option>
+                            <option value="gaza">شمال غزة</option>
+                            <option value="gaza">غزة</option>
+                            <option value="middle">الوسطى</option>
+                            <option value="deir_albalah">دير البلح</option>
+                            <option value="khan_younis">خانيونس</option>
+                            <option value="rafah">رفح</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>رقم الهاتف</label>
+                    <input type="tel" required>
+                </div>
+                <div class="form-groupp">
+                    <input type="checkbox" required> أوافق على الشروط والأحكام
+                </div>
+                <button type="submit" class="btn">إنشاء حساب</button>
+            </form>
+
+            <p class="text-center">لديك حساب؟ <a href="http://localhost/donate%20blood/wordpresss/?page_id=48">تسجيل الدخول</a></p>
+        </div>
+        <div class="image-container"></div>
+    </div>
+</div>
